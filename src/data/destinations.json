@@ -1,0 +1,581 @@
+{
+  "destinations": [
+    {
+      "id": "paris",
+      "name": "Paris, France",
+      "description": "The City of Light, known for its art, fashion, and culture.",
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+      "bestTimeToVisit": ["April", "May", "September", "October"],
+      "averageTemperature": {
+        "summer": "20-25°C",
+        "winter": "5-10°C"
+      },
+      "attractions": [
+        {
+          "name": "Eiffel Tower",
+          "type": "Landmark",
+          "price": {
+            "adult": 26.8,
+            "child": 13.4,
+            "currency": "EUR"
+          },
+          "image": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f",
+          "description": "Iconic iron tower offering panoramic city views",
+          "duration": "2-3 hours",
+          "bestTime": "Early morning or evening"
+        },
+        {
+          "name": "Louvre Museum",
+          "type": "Museum",
+          "price": {
+            "adult": 17,
+            "child": "Free",
+            "currency": "EUR"
+          },
+          "image": "https://images.unsplash.com/photo-1547245324-d777c6f05e80",
+          "description": "World's largest art museum and historic monument",
+          "duration": "3-4 hours",
+          "bestTime": "Weekday mornings"
+        },
+        {
+          "name": "Notre-Dame Cathedral",
+          "type": "Religious Site",
+          "price": {
+            "adult": "Free",
+            "child": "Free",
+            "currency": "EUR"
+          },
+          "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+          "description": "Gothic masterpiece with stunning architecture",
+          "duration": "1-2 hours",
+          "bestTime": "Morning"
+        }
+      ],
+      "accommodation": {
+        "budget": {
+          "range": "50-100",
+          "currency": "EUR",
+          "description": "Hostels and budget hotels",
+          "examples": ["Generator Paris", "Ibis Budget Paris"]
+        },
+        "midrange": {
+          "range": "100-200",
+          "currency": "EUR",
+          "description": "3-4 star hotels",
+          "examples": ["Hotel du Louvre", "Hotel Brighton"]
+        },
+        "luxury": {
+          "range": "200+",
+          "currency": "EUR",
+          "description": "5-star hotels and luxury apartments",
+          "examples": ["Ritz Paris", "Four Seasons Hotel George V"]
+        }
+      },
+      "food": {
+        "budget": {
+          "range": "10-20",
+          "currency": "EUR",
+          "description": "Street food and casual dining",
+          "examples": ["Crepes, baguette sandwiches, falafel"]
+        },
+        "midrange": {
+          "range": "20-50",
+          "currency": "EUR",
+          "description": "Traditional French restaurants",
+          "examples": ["Bistros, brasseries, wine bars"]
+        },
+        "luxury": {
+          "range": "50+",
+          "currency": "EUR",
+          "description": "Fine dining and Michelin-starred restaurants",
+          "examples": ["Le Jules Verne", "L'Ambroisie"]
+        }
+      },
+      "activities": {
+        "adventure": [
+          "Seine River cruise",
+          "Bike tour",
+          "Hot air balloon ride"
+        ],
+        "relaxation": [
+          "Luxembourg Gardens",
+          "Boat ride on Canal Saint-Martin",
+          "Spa day"
+        ],
+        "culture": [
+          "Museum visits",
+          "Opera Garnier",
+          "Latin Quarter walking tour"
+        ],
+        "foodie": ["Food market tour", "Wine tasting", "Cooking class"]
+      }
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo, Japan",
+      "description": "A bustling metropolis where tradition meets innovation.",
+      "image": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26",
+      "bestTimeToVisit": ["March", "April", "October", "November"],
+      "averageTemperature": {
+        "summer": "25-30°C",
+        "winter": "5-10°C"
+      },
+      "attractions": [
+        {
+          "name": "Senso-ji Temple",
+          "type": "Temple",
+          "price": {
+            "adult": "Free",
+            "child": "Free",
+            "currency": "JPY"
+          },
+          "image": "https://images.unsplash.com/photo-1528164344705-47542682000d",
+          "description": "Tokyo's oldest temple in Asakusa",
+          "duration": "1-2 hours",
+          "bestTime": "Early morning"
+        },
+        {
+          "name": "Tokyo Skytree",
+          "type": "Observation Deck",
+          "price": {
+            "adult": 3100,
+            "child": 1550,
+            "currency": "JPY"
+          },
+          "image": "https://images.unsplash.com/photo-1525253086316-d0c936dc814c",
+          "description": "World's tallest freestanding broadcasting tower",
+          "duration": "2-3 hours",
+          "bestTime": "Evening for city lights"
+        },
+        {
+          "name": "Meiji Shrine",
+          "type": "Shrine",
+          "price": {
+            "adult": "Free",
+            "child": "Free",
+            "currency": "JPY"
+          },
+          "image": "https://images.unsplash.com/photo-1528164344705-47542682000d",
+          "description": "Peaceful shrine in the heart of the city",
+          "duration": "1-2 hours",
+          "bestTime": "Morning"
+        }
+      ],
+      "accommodation": {
+        "budget": {
+          "range": "3000-6000",
+          "currency": "JPY",
+          "description": "Capsule hotels and hostels",
+          "examples": ["Nine Hours Shinjuku", "Unplan Kagurazaka"]
+        },
+        "midrange": {
+          "range": "6000-15000",
+          "currency": "JPY",
+          "description": "Business hotels and ryokans",
+          "examples": ["Hotel Gracery Shinjuku", "Sakura Hotel Jimbocho"]
+        },
+        "luxury": {
+          "range": "15000+",
+          "currency": "JPY",
+          "description": "Luxury hotels and traditional ryokans",
+          "examples": ["Park Hotel Tokyo", "The Ritz-Carlton Tokyo"]
+        }
+      },
+      "food": {
+        "budget": {
+          "range": "500-1000",
+          "currency": "JPY",
+          "description": "Convenience stores and street food",
+          "examples": ["Ramen, onigiri, takoyaki"]
+        },
+        "midrange": {
+          "range": "1000-3000",
+          "currency": "JPY",
+          "description": "Izakayas and ramen shops",
+          "examples": ["Sushi restaurants, tempura, yakitori"]
+        },
+        "luxury": {
+          "range": "3000+",
+          "currency": "JPY",
+          "description": "Sushi restaurants and kaiseki",
+          "examples": ["Sukiyabashi Jiro", "Kanda"]
+        }
+      },
+      "activities": {
+        "adventure": [
+          "Robot Restaurant",
+          "TeamLab Borderless",
+          "Sumo wrestling match"
+        ],
+        "relaxation": ["Onsen visit", "Shinjuku Gyoen", "Tea ceremony"],
+        "culture": [
+          "Kabuki theater",
+          "Traditional craft workshops",
+          "Museum visits"
+        ],
+        "foodie": ["Tsukiji fish market", "Ramen tasting", "Sake brewery tour"]
+      }
+    },
+    {
+      "id": "bali",
+      "name": "Bali, Indonesia",
+      "description": "Tropical paradise known for its beaches, temples, and vibrant culture.",
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4",
+      "bestTimeToVisit": ["April", "May", "June", "September"],
+      "averageTemperature": {
+        "summer": "28-32°C",
+        "winter": "26-30°C"
+      },
+      "attractions": [
+        {
+          "name": "Uluwatu Temple",
+          "type": "Temple",
+          "price": {
+            "adult": 50000,
+            "child": 25000,
+            "currency": "IDR"
+          },
+          "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4",
+          "description": "Ancient sea temple with stunning cliff views",
+          "duration": "2-3 hours",
+          "bestTime": "Late afternoon for sunset"
+        },
+        {
+          "name": "Tegallalang Rice Terraces",
+          "type": "Natural",
+          "price": {
+            "adult": 25000,
+            "child": 15000,
+            "currency": "IDR"
+          },
+          "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4",
+          "description": "Beautiful rice terraces with scenic views",
+          "duration": "2-3 hours",
+          "bestTime": "Early morning"
+        },
+        {
+          "name": "Sacred Monkey Forest",
+          "type": "Nature Reserve",
+          "price": {
+            "adult": 80000,
+            "child": 60000,
+            "currency": "IDR"
+          },
+          "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4",
+          "description": "Forest sanctuary with playful monkeys",
+          "duration": "1-2 hours",
+          "bestTime": "Morning"
+        }
+      ],
+      "accommodation": {
+        "budget": {
+          "range": "150000-300000",
+          "currency": "IDR",
+          "description": "Guesthouses and hostels",
+          "examples": ["Puri Garden Hotel", "The Haven Bali"]
+        },
+        "midrange": {
+          "range": "300000-800000",
+          "currency": "IDR",
+          "description": "Boutique hotels and villas",
+          "examples": ["The Kayon Resort", "Alaya Resort Ubud"]
+        },
+        "luxury": {
+          "range": "800000+",
+          "currency": "IDR",
+          "description": "Luxury resorts and private villas",
+          "examples": ["Four Seasons Resort Bali", "The Mulia"]
+        }
+      },
+      "food": {
+        "budget": {
+          "range": "20000-50000",
+          "currency": "IDR",
+          "description": "Warungs and street food",
+          "examples": ["Nasi goreng, mie goreng, satay"]
+        },
+        "midrange": {
+          "range": "50000-150000",
+          "currency": "IDR",
+          "description": "Local restaurants and cafes",
+          "examples": ["Babi guling, bebek betutu, seafood"]
+        },
+        "luxury": {
+          "range": "150000+",
+          "currency": "IDR",
+          "description": "Fine dining and international cuisine",
+          "examples": ["Mozaic Restaurant", "Merah Putih"]
+        }
+      },
+      "activities": {
+        "adventure": ["Surfing lessons", "White water rafting", "ATV tours"],
+        "relaxation": ["Beach day", "Spa treatments", "Yoga classes"],
+        "culture": [
+          "Traditional dance shows",
+          "Temple visits",
+          "Cooking classes"
+        ],
+        "foodie": [
+          "Food market tour",
+          "Coffee plantation visit",
+          "Balinese feast"
+        ]
+      }
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai, UAE",
+      "description": "Ultra-modern city with luxury shopping, ultramodern architecture and a lively nightlife scene.",
+      "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+      "bestTimeToVisit": ["November", "December", "January", "February"],
+      "averageTemperature": {
+        "summer": "35-45°C",
+        "winter": "20-25°C"
+      },
+      "attractions": [
+        {
+          "name": "Burj Khalifa",
+          "type": "Landmark",
+          "price": {
+            "adult": 149,
+            "child": 95,
+            "currency": "AED"
+          },
+          "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+          "description": "World's tallest building with observation decks",
+          "duration": "2-3 hours",
+          "bestTime": "Evening for sunset views"
+        },
+        {
+          "name": "Dubai Mall",
+          "type": "Shopping",
+          "price": {
+            "adult": "Free",
+            "child": "Free",
+            "currency": "AED"
+          },
+          "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+          "description": "World's largest shopping mall with entertainment",
+          "duration": "4-6 hours",
+          "bestTime": "Afternoon"
+        }
+      ],
+      "accommodation": {
+        "budget": {
+          "range": "200-400",
+          "currency": "AED",
+          "description": "Budget hotels and hostels",
+          "examples": ["Rove Downtown", "Ibis Styles Dubai"]
+        },
+        "midrange": {
+          "range": "400-800",
+          "currency": "AED",
+          "description": "4-star hotels and resorts",
+          "examples": ["Millennium Plaza", "Radisson Blu"]
+        },
+        "luxury": {
+          "range": "800+",
+          "currency": "AED",
+          "description": "5-star luxury hotels",
+          "examples": ["Burj Al Arab", "Atlantis The Palm"]
+        }
+      },
+      "food": {
+        "budget": {
+          "range": "20-50",
+          "currency": "AED",
+          "description": "Street food and casual dining",
+          "examples": ["Shawarma, falafel, manakish"]
+        },
+        "midrange": {
+          "range": "50-150",
+          "currency": "AED",
+          "description": "Restaurants and cafes",
+          "examples": ["Arabic cuisine, international food"]
+        },
+        "luxury": {
+          "range": "150+",
+          "currency": "AED",
+          "description": "Fine dining and celebrity chef restaurants",
+          "examples": ["Zuma, Nobu, CÉ LA VI"]
+        }
+      },
+      "activities": {
+        "adventure": ["Desert safari", "Skydiving", "Dune bashing"],
+        "relaxation": ["Beach clubs", "Spa treatments", "Yacht tours"],
+        "culture": ["Old Dubai tour", "Museum visits", "Cultural shows"],
+        "foodie": ["Food tour", "Cooking class", "Dhow dinner cruise"]
+      }
+    },
+    {
+      "id": "rome",
+      "name": "Rome, Italy",
+      "description": "Eternal city with ancient ruins, Renaissance art, and vibrant street life.",
+      "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
+      "bestTimeToVisit": ["April", "May", "September", "October"],
+      "averageTemperature": {
+        "summer": "25-30°C",
+        "winter": "5-10°C"
+      },
+      "attractions": [
+        {
+          "name": "Colosseum",
+          "type": "Historical",
+          "price": {
+            "adult": 16,
+            "child": 2,
+            "currency": "EUR"
+          },
+          "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
+          "description": "Ancient amphitheater and iconic symbol of Rome",
+          "duration": "2-3 hours",
+          "bestTime": "Early morning"
+        },
+        {
+          "name": "Vatican City",
+          "type": "Religious",
+          "price": {
+            "adult": 17,
+            "child": 8,
+            "currency": "EUR"
+          },
+          "image": "https://images.unsplash.com/photo-1552832230-c0197dd311b5",
+          "description": "Home to St. Peter's Basilica and Vatican Museums",
+          "duration": "4-6 hours",
+          "bestTime": "Weekday mornings"
+        }
+      ],
+      "accommodation": {
+        "budget": {
+          "range": "50-100",
+          "currency": "EUR",
+          "description": "Hostels and budget hotels",
+          "examples": ["The Yellow", "Generator Rome"]
+        },
+        "midrange": {
+          "range": "100-200",
+          "currency": "EUR",
+          "description": "3-4 star hotels",
+          "examples": ["Hotel Artemide", "Hotel Barocco"]
+        },
+        "luxury": {
+          "range": "200+",
+          "currency": "EUR",
+          "description": "5-star hotels and luxury apartments",
+          "examples": ["Hotel de Russie", "Hotel Eden"]
+        }
+      },
+      "food": {
+        "budget": {
+          "range": "10-20",
+          "currency": "EUR",
+          "description": "Pizzerias and trattorias",
+          "examples": ["Pizza al taglio, supplì, panini"]
+        },
+        "midrange": {
+          "range": "20-50",
+          "currency": "EUR",
+          "description": "Traditional restaurants",
+          "examples": ["Pasta dishes, Roman cuisine"]
+        },
+        "luxury": {
+          "range": "50+",
+          "currency": "EUR",
+          "description": "Fine dining and Michelin-starred restaurants",
+          "examples": ["La Pergola", "Imàgo"]
+        }
+      },
+      "activities": {
+        "adventure": ["Vespa tour", "Bike tour", "Walking tours"],
+        "relaxation": ["Villa Borghese", "Thermal baths", "Wine tasting"],
+        "culture": ["Museum visits", "Opera", "Historical sites"],
+        "foodie": ["Food tour", "Cooking class", "Wine tasting"]
+      }
+    },
+    {
+      "id": "barcelona",
+      "name": "Barcelona, Spain",
+      "description": "Vibrant city with unique architecture, beaches, and a rich cultural scene.",
+      "image": "https://images.unsplash.com/photo-1583422409516-289eea28c2c4",
+      "bestTimeToVisit": ["May", "June", "September", "October"],
+      "averageTemperature": {
+        "summer": "25-30°C",
+        "winter": "10-15°C"
+      },
+      "attractions": [
+        {
+          "name": "Sagrada Familia",
+          "type": "Architecture",
+          "price": {
+            "adult": 26,
+            "child": 24,
+            "currency": "EUR"
+          },
+          "image": "https://images.unsplash.com/photo-1583422409516-289eea28c2c4",
+          "description": "Gaudi's unfinished masterpiece",
+          "duration": "2-3 hours",
+          "bestTime": "Morning"
+        },
+        {
+          "name": "Park Güell",
+          "type": "Park",
+          "price": {
+            "adult": 10,
+            "child": 7,
+            "currency": "EUR"
+          },
+          "image": "https://images.unsplash.com/photo-1583422409516-289eea28c2c4",
+          "description": "Colorful park designed by Gaudi",
+          "duration": "2-3 hours",
+          "bestTime": "Late afternoon"
+        }
+      ],
+      "accommodation": {
+        "budget": {
+          "range": "40-80",
+          "currency": "EUR",
+          "description": "Hostels and budget hotels",
+          "examples": ["Casa Gracia", "Generator Barcelona"]
+        },
+        "midrange": {
+          "range": "80-150",
+          "currency": "EUR",
+          "description": "3-4 star hotels",
+          "examples": ["Hotel 1898", "Hotel Arts Barcelona"]
+        },
+        "luxury": {
+          "range": "150+",
+          "currency": "EUR",
+          "description": "5-star hotels and luxury apartments",
+          "examples": ["Hotel W Barcelona", "Mandarin Oriental"]
+        }
+      },
+      "food": {
+        "budget": {
+          "range": "10-20",
+          "currency": "EUR",
+          "description": "Tapas bars and casual dining",
+          "examples": ["Tapas, paella, bocadillos"]
+        },
+        "midrange": {
+          "range": "20-50",
+          "currency": "EUR",
+          "description": "Traditional restaurants",
+          "examples": ["Catalan cuisine, seafood"]
+        },
+        "luxury": {
+          "range": "50+",
+          "currency": "EUR",
+          "description": "Fine dining and Michelin-starred restaurants",
+          "examples": ["Disfrutar", "ABaC"]
+        }
+      },
+      "activities": {
+        "adventure": ["Bike tour", "Hiking", "Water sports"],
+        "relaxation": ["Beach day", "Spa treatments", "Park visits"],
+        "culture": ["Museum visits", "Flamenco shows", "Architecture tours"],
+        "foodie": ["Food tour", "Cooking class", "Wine tasting"]
+      }
+    }
+  ]
+}
